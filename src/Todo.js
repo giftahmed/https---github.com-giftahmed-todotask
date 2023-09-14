@@ -35,5 +35,4 @@ const Todo = ({ todo, onDelete, onToggle, onEdit }) => {
     </div>
   );
 };
-
 export default Todo;
