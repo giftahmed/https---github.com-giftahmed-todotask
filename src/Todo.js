@@ -8,6 +8,7 @@ const Todo = ({ todo, onDelete, onToggle, onEdit }) => {
     onEdit(todo.id, text);
     setEditing(false);
   };
+  
 
   return (
     <div className={`todo ${todo.completed ? 'completed' : ''}`}>
@@ -35,4 +36,5 @@ const Todo = ({ todo, onDelete, onToggle, onEdit }) => {
     </div>
   );
 };
+
 export default Todo;

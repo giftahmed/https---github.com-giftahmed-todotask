@@ -13,6 +13,7 @@ const App = () => {
     }
   }, []);
 
+
   useEffect(() => {
     localStorage.setItem('todos', JSON.stringify(todos));
   }, [todos]);
